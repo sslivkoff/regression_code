@@ -34,7 +34,7 @@ The value of <img src="https://render.githubusercontent.com/render/math?math=\la
 
 ## npfast
 
-**NOTE: These functions were developed as improvements to numpy 1.11.1. There have since been many improvements to numpy that render some of these npfast functions obsolete. Again, this repo is shared for expository purposes. You should perform your own benchmarks to determine whether any of these techniques will be useful for your particular use case.**
+**NOTE: These functions were developed as improvements to numpy 1.11.1. There have since been many improvements to numpy that render some of these npfast functions obsolete (including a [pull request](https://github.com/numpy/numpy/pull/15715) where I merged a small optimization from npfast upstream to numpy). Again, this repo is shared for expository purposes. You should perform your own benchmarks to determine whether any of these techniques will be useful for your particular use case.**
 
 This package implements faster versions of common numpy functions. These improvements were possible because the native numpy versions were either single-threaded or created unnecessary matrix copies.
 
